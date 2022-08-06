@@ -23,6 +23,7 @@ highlighter: rouge
 markdown: kramdown
 kramdown:
   input: GFM
+  gfm_emojis: true
   auto_ids: true
   hard_wrap: false
   syntax_highlighter: rouge
@@ -42,6 +43,7 @@ exclude:
   - README*
   - '*.gemspec'
   - '*.config.js'
+  - .idea
 
 defaults:
   - scope:
